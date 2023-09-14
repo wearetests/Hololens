@@ -90,3 +90,5 @@ Refer to [Troubleshoot Windows device enrollment problems in Microsoft Intune](/
 ### Ensure that MDM enrollment isn't blocked for Windows devices
 
 In order for enrollment to succeed you'll need to make sure that your HoloLens devices can enroll. Since HoloLens is considered a Windows device, there will need to be no enrollment restrictions that could block your deployment. [Review this list of restrictions](/mem/intune/enrollment/enrollment-restrictions-set) and ensure you'll be able to enroll your devices.
+Currently, the enrollment restriction is not applyed to Hololens devices by default.
+If your tenant need to apply enrollment restriction for Hololens devices, you will need to contact Microsoft support to apply the enrollment restriction.
